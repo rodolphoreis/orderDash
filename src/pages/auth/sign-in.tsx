@@ -1,7 +1,10 @@
+import { Helmet } from "react-helmet-async";
+
 export function SignIn() {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <h2>SignIn</h2>
-    </div>
+    <>
+      <Helmet title="Login" />
+      <h1>SingIn</h1>
+    </>
   );
 }
