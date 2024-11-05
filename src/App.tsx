@@ -1,8 +1,8 @@
 import "./global.css";
+
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
+
 export function App() {
-  return (
-    <>
-      <h1 className="text-zinc-500 font-bold">Hello World</h1>
-    </>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
